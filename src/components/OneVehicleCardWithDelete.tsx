@@ -12,6 +12,7 @@ interface VehiclesProps {
 	consumption: number;
 	transmission: string;
 	price: number;
+	user_id: number;
 }
 
 interface Vehicles {
