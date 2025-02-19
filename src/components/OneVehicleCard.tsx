@@ -32,10 +32,12 @@ export default function OneVehicleCard({ vehicle }: Vehicles) {
 				alt={`${vehicle.brand}${vehicle.model}`}
 			/>
 			<div className="latest-vehicles-added-infos">
-				<h3 className="latest-vehicles-added-title">
-					{vehicle.year} {vehicle.brand} {vehicle.model}
-				</h3>
-				<p className="latest-vehicles-added-price">{vehicle.price} €</p>
+				<div>
+					<h3 className="latest-vehicles-added-title">
+						{vehicle.year} {vehicle.brand} {vehicle.model}
+					</h3>
+					<p className="latest-vehicles-added-price">{vehicle.price} €</p>
+				</div>
 				<Link
 					className="link-to-fullcard-vehicle"
 					to={`/vehicle/${vehicle.id}`}
