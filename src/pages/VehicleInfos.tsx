@@ -83,6 +83,24 @@ export default function VehicleInfos() {
 			last_name: "Durand",
 			phone_number: "06 98 76 54 32",
 		},
+		{
+			id: 3,
+			first_name: "Pierre",
+			last_name: "Martin",
+			phone_number: "06 14 28 19 53",
+		},
+		{
+			id: 4,
+			first_name: "Sophie",
+			last_name: "Lefevre",
+			phone_number: "06 98 76 54 32",
+		},
+		{
+			id: 5,
+			first_name: "Paul",
+			last_name: "Leroy",
+			phone_number: "06 12 34 56 78",
+		},
 	];
 
 	const navigate = useNavigate();

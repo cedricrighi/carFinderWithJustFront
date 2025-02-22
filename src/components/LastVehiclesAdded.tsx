@@ -4,6 +4,7 @@ import VehiclesCard from "./OneVehicleCard";
 
 interface VehiclesProps {
 	id: number;
+	category_id: number;
 	image: string;
 	brand: string;
 	model: string;

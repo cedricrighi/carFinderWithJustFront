@@ -41,11 +41,10 @@
 
 @media screen and (width > 700px) {
 	.filter-vehicles-list {
-		display: flex;
-		flex-direction: row;
-		flex-wrap: wrap;
-		width: 90%;
-		justify-content: center;
-		gap: 3vw 5vw;
+		display: grid;
+		width: 100%;
+		grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+		justify-items: center;
+		align-items: center;
 	}
 }
