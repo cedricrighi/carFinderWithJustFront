@@ -30,7 +30,6 @@
 	width: 90%;
 	grid-template-columns: repeat(auto-fit, minmax(9rem, 1fr));
 	justify-items: center;
-	align-items: center;
 	margin-top: 2rem;
 	gap: 1rem;
 }

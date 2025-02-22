@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom";
-import "../styles/OneVehicleCard.css";
 import { useState } from "react";
 import VehicleInfos from "../pages/VehicleInfos";
 
