@@ -17,32 +17,21 @@
 
 .latest-vehicles-added-article {
 	border: 2px solid #989898;
-	width: 90%;
+	width: 8rem;
+	height: 15rem;
 	border-radius: 1rem;
-	overflow: hidden;
-	display: flex;
-	gap: 1rem;
 	margin: 0 auto;
 	padding: .4rem .5rem;
 }
 
-@media (width > 700px) {
+@media screen and (width > 750px) {
 	.latest-vehicles-added-article {
-		width: 18rem;
-		margin: 0;
-		align-items: center;
-	}
-}
-
-@media (width > 800px) {
-	.latest-vehicles-added-article {
-		width: 16rem;
-		margin: 0;
+		width: 10rem;
 	}
 }
 
 .latest-vehicles-added-image {
-	width: 40%;
+	width: 100%;
 	height: auto;
 	border-radius: .6rem;
 }
@@ -50,7 +39,7 @@
 .latest-vehicles-added-infos {
 	display: flex;
 	flex-direction: column;
-	flex: 1;
+	width: fit-content;
 	justify-content: space-between;
 }
 
@@ -62,6 +51,7 @@
 
 .link-to-fullcard-vehicle {
 	text-decoration: none;
+	width: fit-content;
 }
 
 .latest-vehicles-added-button {
