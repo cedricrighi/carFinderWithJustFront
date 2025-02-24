@@ -28,10 +28,16 @@
 	display: grid;
 	margin: 0 auto;
 	width: 90%;
-	grid-template-columns: repeat(auto-fit, minmax(9rem, 1fr));
+	grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr));
 	justify-items: center;
 	margin-top: 2rem;
 	gap: 1rem;
+}
+
+@media screen and (width > 700px) {
+	.filter-vehicles-list {
+		grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+	}
 }
 
 .empty-vehicle-filter-list {

@@ -62,3 +62,9 @@
 	border-radius: .5rem;
 	align-self: center;
 }
+
+@media screen and (width > 600px) {
+	.seller-contact-buy {
+		width: 8rem;
+	}
+}

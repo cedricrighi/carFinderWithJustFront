@@ -153,7 +153,7 @@ export default function VehicleInfos() {
 						</p>
 						<p>Contact: {seller.phone_number}</p>
 						<button className="seller-contact-buy" type="button">
-							Acheter
+							Contacter
 						</button>
 					</article>
 				)}
